@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-sand text-charcoal font-body antialiased;
+}
+
+a {
+  @apply text-charcoal;
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md shadow-soft border border-white/50;
+}
+
+.section-shell {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold tracking-wide;
+}
+
