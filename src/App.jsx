@@ -11,7 +11,7 @@ import Shop from "./pages/Shop";
 const App = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-sand via-white to-mist text-charcoal">
-      <Navbar />
+      {/* <Navbar /> */}
       <main className="pt-20 pb-16">
         <Routes>
           <Route path="/" element={<Home />} />

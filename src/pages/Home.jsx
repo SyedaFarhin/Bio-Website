@@ -24,13 +24,13 @@ const Home = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
-                to="/services"
+                // to="/services"
                 className="inline-flex items-center justify-center rounded-full bg-charcoal text-white px-5 py-3 text-sm font-semibold shadow-soft transition hover:-translate-y-0.5 hover:shadow-lg"
               >
                 View Services
               </Link>
               <Link
-                to="/bookings"
+                // to="/bookings"
                 className="inline-flex items-center justify-center rounded-full border border-charcoal/20 bg-white px-5 py-3 text-sm font-semibold text-charcoal hover:border-charcoal/40 transition"
               >
                 Book a Session
